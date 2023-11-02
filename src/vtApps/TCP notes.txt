@@ -1,0 +1,12 @@
+Arguments:
+time_remain - HH:MM:SS
+cue_name - Text
+action - 'run'/'pause'/'clear'
+
+
+Valid commands:
+1 arg:  ('time_remain')             //presumes run
+2 arg:  ('time_remain','action')    //presumes pause
+        ('','action')
+3 arg:  ('time_remain','action','cue_name')
+        ('time_remain','','cue_name')   //presumes run
